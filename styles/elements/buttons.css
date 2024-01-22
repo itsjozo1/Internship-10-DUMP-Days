@@ -6,6 +6,7 @@
     padding: 0.875rem 0;
     border: 1px solid transparent; 
     border-image: var(--gradients-button) 1; 
+    transition: 200ms ease-out 0s
 }
 
 .button-text {
@@ -14,4 +15,11 @@
     line-height: 1rem;
     letter-spacing: 0.08rem;
     text-transform: uppercase;
+}
+.button-container:hover{
+    border: 1px solid #37F3E1;
+    background: var(--white, #F5F5F7);
+    .button-text{
+        color: var(--black, #000);
+    }
 }
