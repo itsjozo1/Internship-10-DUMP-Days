@@ -1,0 +1,84 @@
+.heading-2 {
+  font-family: "Fuse V.2 Display";
+  font-size: 7.625rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 7.5rem; /* 98.361% */
+  letter-spacing: -0.1525rem;
+}
+
+.heading-3 {
+  font-family: "Fuse V.2 Display";
+  font-size: 5.0625rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 5.5rem; /* 108.642% */
+  letter-spacing: -0.10125rem;
+}
+
+.heading-4 {
+  font-family: "Fuse V.2 Display";
+  font-size: 3.375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 4.25rem; /* 125.926% */
+  letter-spacing: -0.03375rem;
+}
+
+.heading-5 {
+  font-family: "Fuse V.2 Display";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.5rem;
+}
+
+.heading-6 {
+  font-family: "Fuse V.2 Display";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2rem; /* 133.333% */
+  letter-spacing: 0.03rem;
+}
+
+.subtitle {
+  font-family: "Fuse V.2 Display";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.subtitle-2 {
+  font-family: "Fuse V.2 Display";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.125rem;
+}
+
+.body {
+  font-family: "Fuse V.2 Display";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.body-text {
+  font-family: "Fuse V.2 Text";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.body-2 {
+  font-family: "Fuse V.2 Display";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.875rem; /* 100% */
+  letter-spacing: 0.0175rem;
+}
