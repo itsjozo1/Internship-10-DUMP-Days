@@ -1,0 +1,17 @@
+.button-container {
+    display: flex;
+    width: 8.3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.875rem 0;
+    border: 1px solid transparent; 
+    border-image: var(--gradients-button) 1; 
+}
+
+.button-text {
+    color: var(--white, #F5F5F7);
+    font: 800 1rem "Fuse V.2 Display";
+    line-height: 1rem;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+}
