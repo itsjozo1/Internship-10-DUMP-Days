@@ -27,8 +27,18 @@
 /* ako neki importovi nerade provjeri jeli ispravan path!!! */
 
 @font-face {
-  font-family: "Fuse V.2 Display";
-  src: url("../fonts/FuseV2Display-Regular.woff2") format("woff2");
+  font-family: "Fuse V.2 Display-Book";
+  src: url("../assets/fonts/FuseV.2Display-Book.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fuse V.2 Display-ExtraBold";
+  src: url("../assets/fonts/FuseV.2Display-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fuse V.2 Text-Book";
+  src: url("../assets/fonts/FuseV.2Text-Book.woff2") format("woff2");
 }
 
 :root {
@@ -88,7 +98,7 @@
 }
 
 body {
-  font-family: "Fuse V.2 Display", sans-serif;
+  font-family: sans-serif;
   background-color: #000;
   color: #fff;
 }
