@@ -1,5 +1,5 @@
 .heading-2 {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-ExtraBold";
   font-size: 7.625rem;
   font-style: normal;
   font-weight: 800;
@@ -8,7 +8,7 @@
 }
 
 .heading-3 {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-ExtraBold";
   font-size: 5.0625rem;
   font-style: normal;
   font-weight: 800;
@@ -17,7 +17,7 @@
 }
 
 .heading-4 {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-ExtraBold";
   font-size: 3.375rem;
   font-style: normal;
   font-weight: 800;
@@ -26,7 +26,7 @@
 }
 
 .heading-5 {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-ExtraBold";
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 800;
@@ -34,7 +34,7 @@
 }
 
 .heading-6 {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-ExtraBold";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
@@ -43,7 +43,7 @@
 }
 
 .subtitle {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-Book";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -51,7 +51,7 @@
 }
 
 .subtitle-2 {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-ExtraBold";
   font-size: 1rem;
   font-style: normal;
   font-weight: 800;
@@ -59,7 +59,7 @@
 }
 
 .body {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-Book";
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -67,7 +67,7 @@
 }
 
 .body-text {
-  font-family: "Fuse V.2 Text";
+  font-family: "Fuse V.2 Text-Book";
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -75,7 +75,7 @@
 }
 
 .body-2 {
-  font-family: "Fuse V.2 Display";
+  font-family: "Fuse V.2 Display-Book";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
