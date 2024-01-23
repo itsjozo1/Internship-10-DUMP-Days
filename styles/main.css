@@ -95,6 +95,47 @@
     rgba(250, 82, 64, 0.68) 70.34%,
     rgba(252, 221, 163, 0.68) 103.4%
   );
+  --gradients-stats-followers: conic-gradient(
+    from 90deg at 73.72% 50%, 
+    #6A4293 89.2747038602829deg, 
+    #C75593 202.73809432983398deg
+  );
+  --gradients-stats-partners: conic-gradient(
+    from 118deg at 29.17% 50%,
+    #2361A6 107.5842833518982deg,
+    #C75593 232.76602506637573deg,
+    #694696 336.43709421157837deg
+  );
+  --gradients-stats-lectures: conic-gradient(
+    from 118deg at 29.17% 50%, 
+    #2361A6 38.25952559709549deg, 
+    #694696 319.5926070213318deg
+  );
+  --gradients-stats-workshops: conic-gradient(
+    from 104deg at -7.1% 67.63%, 
+    #2361A6 281.6798400878906deg, 
+    #694696 332.49330282211304deg, 
+    #C75593 358.1250071525574deg
+  );
+  --gradients-stats-panels: conic-gradient(
+    from 80deg at 53.24% 50%, 
+    #804B73 97.9131817817688deg, 
+    #AB415C 150.00729203224182deg, 
+    #C35493 216.7587947845459deg, 
+    #694696 312.76647090911865deg
+  );
+  --gradients-stats-fly-talks: conic-gradient(
+    from 70deg at 62.39% 60.9%, 
+    #C88F6F 117.4518620967865deg, 
+    #AB415C 221.5480399131775deg, 
+    #804B73 291.4208722114563deg, 
+    #694696 321.2520360946655deg
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
