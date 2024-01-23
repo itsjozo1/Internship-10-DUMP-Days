@@ -43,6 +43,9 @@
   .header__logo--mobile {
     margin-left: 1.5rem;
   }
+  .header__nav-list {
+    gap: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 812px) {
