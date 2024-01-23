@@ -111,6 +111,7 @@ a {
 
 button {
   background: #000;
+  cursor: pointer;
 }
 
 .sections-container {
@@ -118,4 +119,5 @@ button {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
