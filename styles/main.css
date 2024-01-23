@@ -145,6 +145,11 @@ body {
   color: #fff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -152,6 +157,7 @@ a {
 
 button {
   background: #000;
+  cursor: pointer;
 }
 
 .sections-container {
@@ -159,4 +165,5 @@ button {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
