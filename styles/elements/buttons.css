@@ -19,7 +19,7 @@
 .button-container:hover {
   border: 1px solid #37f3e1;
   background: var(--white, #f5f5f7);
-  .button-text {
+  & .button-text {
     color: var(--black, #000);
   }
 }
