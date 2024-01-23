@@ -20,6 +20,10 @@
   & h2.heading-2 {
     margin-bottom: 1.5rem;
   }
+
+  & h4.heading-4 {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 1440px) {
@@ -29,9 +33,47 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .fesb-location__content--wrapper {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    & h2 {
+      font-size: clamp(3.375rem, 10vw, 7rem);
+    }
+
+    & h4 {
+      font-size: clamp(2.2rem, 5vw, 3.375rem);
+    }
+
+    & p.subtitle {
+      font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+  }
+}
+
 @media screen and (max-width: 812px) {
   .fesb-location__container {
+    height: 120vw;
+    background-position: 75% 31%, 0% 0%;
+  }
+  .fesb-location__content--wrapper {
+    & h2 {
+      line-height: 3.5rem; /* 103.704% */
+      letter-spacing: -0.03375rem; /* 103.704% */
+      margin-top: 0.3rem;
+    }
+  }
+
+  & h4.heading-4 {
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .fesb-location__container {
     height: 150vw;
-    background-position: 75% 25%, 0% 0%;
+  }
+  & p.subtitle {
+    line-height: 1rem;
   }
 }
