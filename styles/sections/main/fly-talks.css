@@ -2,8 +2,10 @@
     position: relative;
     margin-top: 32rem;
     display: flex;
-    gap: 7.5rem;
+    align-items: center;
+    justify-content: space-between;
     padding: 0 6.5rem;
+    overflow: hidden;
 }
 .fly-talks__content-container{
     position: relative;
@@ -11,6 +13,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 3.5rem;
+    z-index: 5;
 }
 .fly-talks__text{
     max-width: 25rem;
@@ -19,8 +22,8 @@
     position: relative;
     width: 42rem;
     height: 50rem;
+    z-index: 4;
 }
-
 .fly-talks__image:nth-of-type(1){
     z-index: 2;
     position: absolute;
@@ -31,11 +34,39 @@
     z-index: 1;
     position: absolute;
     bottom: 8em;
-    left: 0;
+    right: 23em;
 }
 .fly-talks__image:nth-of-type(3){
     z-index: 3;
     position: absolute;
     bottom: -5rem;
     right: -6rem;
+}
+@media (max-width: 1250px){
+    .fly-talks{
+        padding-right: 0.5rem;
+    }
+}
+@media (max-width: 1070px){
+    .fly-talks{
+        padding: 0;
+        flex-direction: column;
+    }
+    .fly-talks__images-container{
+        margin-top: 1.7em;
+    }
+}
+@media (max-width: 830px){
+    .fly-talks{
+        margin-top: 13rem;
+    }
+    .fly-talks__content-container{
+        gap: 1.4em;
+        padding: 0 1.5rem;
+    }
+    .fly-talks__content-container h2{
+        font-size: 3.375rem;
+        line-height: 4.25rem;
+        letter-spacing: -0.03375rem;
+    }
 }
