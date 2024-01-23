@@ -60,9 +60,6 @@
 }
 
 @media (max-width: 830px){
-    .stats__subtitle{
-        content: "Dev, Dizajn, Marketing & Tech konferencija";
-    }
     .stats__numbers{
         margin-top: 17em;
         flex-direction: column;
