@@ -1,3 +1,28 @@
-header {
-  background: white;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.header__nav {
+  margin-right: 2rem;
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3rem;
+}
+
+.header__nav-item:hover a {
+  background: var(--gradients-02);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__logo {
+  margin-left: 2rem;
 }
