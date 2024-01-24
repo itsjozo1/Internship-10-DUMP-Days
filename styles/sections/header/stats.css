@@ -1,85 +1,86 @@
 .stats {
-    margin-top: 22rem;
-    position: relative;
-    text-align: center;
+  margin-top: 22rem;
+  position: relative;
+  text-align: center;
 }
-.stats__numbers{
-    position: relative;
-    max-width: 80%;
-    margin-top: 13.5rem;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 5rem;
-    scroll-behavior: smooth;
-    overflow: scroll;
-}
-.stats__numbers::-webkit-scrollbar {
-    display: none;
-}
-.stats__number-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
-}
-.number-followers__headline{
-    background: var(--gradients-stats-followers);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.number-partners__headline{
-    background: var(--gradients-stats-partners);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.number-lectures__headline{
-    background: var(--gradients-stats-lectures);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.number-workshops__headline{
-    background: var(--gradients-stats-workshops);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.number-panels__headline{
-    background: var(--gradients-stats-panels);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.number-fly-talks__headline{
-    background: var(--gradients-stats-fly-talks);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.stats__numbers {
+  position: relative;
+  max-width: 80%;
+  margin-top: 13.5rem;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 5rem;
+  scroll-behavior: smooth;
+  overflow: scroll;
 }
 
-@media (max-width: 830px){
-    .stats__subtitle{
-        content: "Dev, Dizajn, Marketing & Tech konferencija";
-    }
-    .stats__numbers{
-        margin-top: 17em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 4.5rem;
-    }
-    .stats__number-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 0.125rem;
-    }
-    .stats__numbers h2{
-        font-size: 3.375rem;
-        line-height: 4.25rem; /* 125.926% */
-        letter-spacing: -0.03375rem;
-    }
+.stats__numbers::-webkit-scrollbar {
+  display: none;
+}
+.stats__number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+.number-followers__headline {
+  background: var(--gradients-stats-followers);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.number-partners__headline {
+  background: var(--gradients-stats-partners);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.number-lectures__headline {
+  background: var(--gradients-stats-lectures);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.number-workshops__headline {
+  background: var(--gradients-stats-workshops);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.number-panels__headline {
+  background: var(--gradients-stats-panels);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.number-fly-talks__headline {
+  background: var(--gradients-stats-fly-talks);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 812px) {
+  .stats__subtitle {
+    content: "Dev, Dizajn, Marketing & Tech konferencija";
+  }
+  .stats__numbers {
+    margin-top: 17em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+  }
+  .stats__number-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.125rem;
+  }
+  .stats__numbers h2 {
+    font-size: 3.375rem;
+    line-height: 4.25rem; /* 125.926% */
+    letter-spacing: -0.03375rem;
+  }
 }
