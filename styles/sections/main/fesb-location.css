@@ -71,7 +71,8 @@
 
 @media screen and (max-width: 512px) {
   .fesb-location__container {
-    height: 150vw;
+    height: 145vw;
+    background-position: 75% 25%, 0% 0%;
   }
   & p.subtitle {
     line-height: 1rem;
