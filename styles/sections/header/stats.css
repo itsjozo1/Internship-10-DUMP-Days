@@ -13,7 +13,6 @@
   scroll-behavior: smooth;
   overflow: scroll;
 }
-
 .stats__numbers::-webkit-scrollbar {
   display: none;
 }
@@ -84,3 +83,4 @@
     letter-spacing: -0.03375rem;
   }
 }
+
