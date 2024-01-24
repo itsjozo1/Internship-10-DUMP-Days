@@ -1,0 +1,44 @@
+.schedule__container{
+    margin-top: 4rem;
+    text-align: center;
+}
+.schedule__days-selection-container{
+    margin: 7rem auto 0;
+    display: flex;
+    gap: 2.5rem;
+    width: fit-content;
+}
+.days-selection__item{
+    padding: 1rem;
+    color: var(--gray, #8A8A99);
+    transition: color 0.3s ease; 
+}
+.days-selection__item:hover{
+    color: var(--white, #F5F5F7);
+    cursor: pointer;
+}
+.days-selection__item:active{
+    background: var(--gradients-button);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: .6rem solid var(--gradients-button, #0D8ED3);
+}
+.program-selection__rectangle{
+    width: 0.0625rem;
+    height: 1.0625rem;
+    background-color: var(--gray, #8A8A99);
+}
+.schedule__program-selection__container{
+    margin: 3rem auto 0;
+    display: flex;
+    gap: 1.5rem;
+    width: fit-content;
+}
+.program-selection__item{
+    color: var(--gray, #8A8A99);
+    transition: color .3s ease;
+}
+.program-selection__item:hover{
+    color: var(--white, #F5F5F7);
+}
