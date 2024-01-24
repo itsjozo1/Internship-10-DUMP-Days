@@ -22,7 +22,9 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border-bottom: .6rem solid var(--gradients-button, #0D8ED3);
+    border-bottom-width: .08rem;
+    border-bottom-style: solid;
+    border-image: var(--gradients-button, #0D8ED3) 1;
 }
 .program-selection__rectangle{
     width: 0.0625rem;
