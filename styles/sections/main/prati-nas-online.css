@@ -1,0 +1,29 @@
+.follow-online__wrapper {
+  background-image: url("../../../assets/images/Rectangle_laptop.png");
+  background-repeat: no-repeat;
+  background-size: 110rem;
+  background-position: -55% 0%;
+  height: 83.4rem;
+  margin-top: 16.25rem;
+}
+
+.follow-online__subtitle {
+  text-align: center;
+}
+
+.follow-online__content--container {
+  max-width: 31.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 0.8rem;
+  margin-top: 28.5rem;
+}
+
+.follow-online__content--container h2 {
+  margin-bottom: 0.5rem;
+}
+
+.follow-online__content--container p.body-text {
+  max-width: 25rem;
+}
