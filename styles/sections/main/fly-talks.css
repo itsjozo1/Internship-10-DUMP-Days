@@ -24,19 +24,22 @@
     height: 50rem;
     z-index: 4;
 }
-.fly-talks__image:nth-of-type(1){
+.fly-talks__image-mobile{
+    display: none;
+}
+.fly-talks__image-desktop:nth-of-type(1){
     z-index: 2;
     position: absolute;
     top: -9em;
     right: 0;
 }
-.fly-talks__image:nth-of-type(2){
+.fly-talks__image-desktop:nth-of-type(2){
     z-index: 1;
     position: absolute;
     bottom: 8em;
     right: 23em;
 }
-.fly-talks__image:nth-of-type(3){
+.fly-talks__image-desktop:nth-of-type(3){
     z-index: 3;
     position: absolute;
     bottom: -5rem;
@@ -54,6 +57,30 @@
     }
     .fly-talks__images-container{
         margin-top: 1.7em;
+        position: relative;
+        width: 30rem;
+        height: 40rem;
+    }
+    .fly-talks__image-desktop{
+        display: none;
+    }
+    .fly-talks__image-mobile{
+        display: block;
+    }
+    .fly-talks__image-mobile:nth-of-type(4){
+        position: absolute;
+        bottom: -2rem;
+        left: 3.5rem;
+    }
+    .fly-talks__image-mobile:nth-of-type(5){
+        position: absolute;
+        top: 0;
+        left: 3rem;
+    }
+    .fly-talks__image-mobile:nth-of-type(6){
+        position: absolute;
+        top: -6rem;
+        right: 4rem;
     }
 }
 @media (max-width: 830px){
