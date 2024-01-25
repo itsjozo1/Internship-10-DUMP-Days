@@ -51,20 +51,20 @@
     }
     .speakers__about-container div:nth-child(2n){
         position: relative;
-        top: 5rem
+        top: 6rem
     }
 }
 @media (max-width: 950px){
     .speakers__container{
         flex-direction: column;
-        height: max-content;
+        height: auto;
         overflow: hidden;
-        width: 90%;
+        padding: 0 1.5rem;
         margin: 4.5rem auto;
     }
     .speakers__headline-container{
         position: relative;
-        width: 90%;
+        width: fit-content;
         top: 0;
         left: 0;
     }
@@ -75,7 +75,9 @@
     }
     .speakers__about-container{
         margin: 0 auto;
+        overflow: unset;
         grid-template-columns: repeat(2, max-content);
+        padding-bottom: 7rem;
     }
     .speaker__image{
         width: 9.75rem;
@@ -83,5 +85,6 @@
     }
     .speaker__desc-container{
         width: fit-content;
+        height: fit-content;
     }
 }
