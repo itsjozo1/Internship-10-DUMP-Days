@@ -16,7 +16,7 @@
     gap: 2rem;
     position: sticky;
     top: 6rem;
-    left: 6.5rem;
+    margin-left: 6.5rem;
 }
 .speakers__about-container{
     display: grid;
@@ -60,6 +60,9 @@
     margin: .4rem 0 .6rem;
 }
 @media (max-width: 1200px){
+    .speakers__container{
+        gap: 7rem;
+    }
     .speakers__about-container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -83,7 +86,7 @@
         position: relative;
         width: fit-content;
         top: 0;
-        left: 0;
+        margin-left: 0;
     }
     .speakers__headline-container h3{
         font-size: 3.375rem;
