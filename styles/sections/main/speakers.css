@@ -28,11 +28,28 @@
     position: relative;
     top: 7rem;
 }
-.speaker__image{
-    background: linear-gradient(123deg, rgba(13, 142, 211, 0.68) -3.37%, rgba(10, 58, 167, 0.68) 17.75%, rgba(197, 55, 84, 0.68) 53.11%, rgba(250, 82, 64, 0.68) 70.34%, rgba(252, 221, 163, 0.68) 103.4%);
-    background-blend-mode: hue;
+.speaker__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjust as needed based on your image aspect ratio */
     margin-bottom: .75rem;
 }
+
+.speaker__image-overlay {
+    position: relative;
+}
+
+.speaker__image-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96%;
+    background: var(--gradient-overlay);
+    background-blend-mode: hue;
+}
+
 .speaker__occupation{
     color: var(--Dark-gray, #54545F);
     font-size: 1rem;
