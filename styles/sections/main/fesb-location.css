@@ -5,7 +5,7 @@
   background: url("../../../assets/svg/icons/map-pin-filled.svg") no-repeat,
     url("../../../assets/images/fesb-location.png") no-repeat;
   background-size: 7vw, contain;
-  background-position: 73% 64%, 0% 0%;
+  background-position: 76% 64%, 0% 0%;
   display: flex;
   align-items: center;
 }
@@ -71,7 +71,8 @@
 
 @media screen and (max-width: 512px) {
   .fesb-location__container {
-    height: 150vw;
+    height: 145vw;
+    background-position: 75% 25%, 0% 0%;
   }
   & p.subtitle {
     line-height: 1rem;
