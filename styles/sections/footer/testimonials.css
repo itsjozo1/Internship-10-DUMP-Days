@@ -30,22 +30,29 @@
 }
 @media (max-width: 970px) {
   .testimonial {
+    margin-top: 9.5rem;
     height: fit-content;
     background: url(../../../assets/images/Testimonial-background-vertical.png)
       no-repeat;
-    background-size: cover; /* This property sets the background image to cover the entire container */
-    background-position: center; /* This property centers the background image */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
   }
   .testimonial__content-container {
     width: 90%;
     margin: 4.25rem auto 0;
+    align-items: center;
+    text-align: center;
   }
   .testimonial__container {
-    align-content: center;
     flex-direction: column-reverse;
   }
   .testimonial__image {
     width: 100%;
+  }
+  .testimonial__content-container h3 {
+    font-size: 3.375rem;
+    line-height: 4.25rem; /* 125.926% */
+    letter-spacing: -0.03375rem;
   }
 }

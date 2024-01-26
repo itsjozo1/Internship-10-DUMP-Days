@@ -100,7 +100,7 @@
     padding-bottom: 7rem;
   }
   .speaker__image {
-    width: 9.75rem;
+    width: auto;
     height: 13.25rem;
   }
   .speaker__desc-container {
