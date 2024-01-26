@@ -1,0 +1,14 @@
+.gallery__main-grid {
+  rotate: -15deg;
+}
+
+.gallery__left-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 354px 456px;
+  gap: 0.86rem;
+}
+
+#slika17 {
+  grid-row: 1/3;
+}
