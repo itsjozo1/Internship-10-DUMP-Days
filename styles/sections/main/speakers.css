@@ -3,20 +3,18 @@
   gap: 10rem;
   margin-top: 22.5rem;
   position: relative;
-  height: 50rem;
-  overflow: scroll;
-}
-.speakers__container::-webkit-scrollbar {
-  display: none;
 }
 .speakers__headline-container {
   width: 30.125rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  position: sticky;
-  top: 6rem;
+  position: relative;
   margin-left: 6.5rem;
+}
+.speakers__headline-sticky-container {
+  position: sticky;
+  gap: 2rem;
+  top: 6rem;
 }
 .speakers__about-container {
   display: grid;
@@ -31,7 +29,7 @@
 .speaker__image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Adjust as needed based on your image aspect ratio */
+  object-fit: cover;
   margin-bottom: 0.75rem;
 }
 
