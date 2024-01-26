@@ -1,110 +1,113 @@
-.speakers__container{
-    display: flex;
-    gap: 10rem;
-    margin-top: 22.5rem;
-    position: relative;
-    height: 50rem;
-    overflow: scroll;
+.speakers__container {
+  display: flex;
+  gap: 10rem;
+  margin-top: 22.5rem;
+  position: relative;
+  height: 50rem;
+  overflow: scroll;
 }
 .speakers__container::-webkit-scrollbar {
-    display: none;
-  }
-.speakers__headline-container{
-    width: 30.125rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    position: sticky;
-    top: 6rem;
-    margin-left: 6.5rem;
+  display: none;
 }
-.speakers__about-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1.5rem;
-    row-gap: 2rem;
+.speakers__headline-container {
+  width: 30.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: sticky;
+  top: 6rem;
+  margin-left: 6.5rem;
+}
+.speakers__about-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 2rem;
 }
 .speakers__about-container div:nth-child(3n-1) {
-    position: relative;
-    top: 7rem;
+  position: relative;
+  top: 7rem;
 }
 .speaker__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Adjust as needed based on your image aspect ratio */
-    margin-bottom: .75rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust as needed based on your image aspect ratio */
+  margin-bottom: 0.75rem;
 }
 
 .speaker__image-overlay {
-    position: relative;
+  position: relative;
 }
 
 .speaker__image-overlay::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 96%;
-    background: var(--gradient-overlay);
-    background-blend-mode: hue;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  background: var(--gradient-overlay);
+  background-blend-mode: hue;
 }
 
-.speaker__occupation{
-    color: var(--Dark-gray, #54545F);
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1rem; /* 100% */
-    letter-spacing: -0.0625rem;
-    margin: .4rem 0 .6rem;
+.speaker__occupation {
+  color: var(--Dark-gray, #54545f);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem; /* 100% */
+  letter-spacing: -0.0625rem;
+  margin: 0.4rem 0 0.6rem;
 }
-@media (max-width: 1200px){
-    .speakers__container{
-        gap: 7rem;
-    }
-    .speakers__about-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .speakers__about-container div:nth-child(3n-1) {
-        top: 0;
-    }
-    .speakers__about-container div:nth-child(2n){
-        position: relative;
-        top: 6rem
-    }
+@media (max-width: 1200px) {
+  .speakers__container {
+    gap: 7rem;
+  }
+  .speakers__about-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .speakers__about-container div:nth-child(3n-1) {
+    top: 0;
+  }
+  .speakers__about-container div:nth-child(2n) {
+    position: relative;
+    top: 6rem;
+  }
 }
-@media (max-width: 950px){
-    .speakers__container{
-        flex-direction: column;
-        height: auto;
-        overflow: hidden;
-        padding: 0 1.5rem;
-        margin: 4.5rem auto;
-    }
-    .speakers__headline-container{
-        position: relative;
-        width: fit-content;
-        top: 0;
-        margin-left: 0;
-    }
-    .speakers__headline-container h3{
-        font-size: 3.375rem;
-        line-height: 4.25rem; /* 125.926% */
-        letter-spacing: -0.03375rem;
-    }
-    .speakers__about-container{
-        margin: 0 auto;
-        overflow: unset;
-        grid-template-columns: repeat(2, max-content);
-        padding-bottom: 7rem;
-    }
-    .speaker__image{
-        width: 9.75rem;
-        height: 14.25rem;
-    }
-    .speaker__desc-container{
-        width: fit-content;
-        height: fit-content;
-    }
+@media (max-width: 950px) {
+  .speakers__container {
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+    padding: 0 1.5rem;
+    margin: 4.5rem auto;
+  }
+  .speakers__headline-container {
+    position: relative;
+    width: 90%;
+    top: 0;
+    margin: 0 auto;
+  }
+  .speakers__headline-container h3 {
+    font-size: 3.375rem;
+    line-height: 4.25rem; /* 125.926% */
+    letter-spacing: -0.03375rem;
+  }
+  .speakers__about-container {
+    margin: 0 auto;
+    overflow: unset;
+    grid-template-columns: repeat(2, max-content);
+    padding-bottom: 7rem;
+  }
+  .speaker__image {
+    width: 9.75rem;
+    height: 13.25rem;
+  }
+  .speaker__desc-container {
+    width: fit-content;
+    height: fit-content;
+  }
+  .speaker__image-overlay::before {
+    height: 93%;
+  }
 }
