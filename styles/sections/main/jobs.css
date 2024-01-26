@@ -18,6 +18,11 @@
   padding-top: 3rem;
   margin-left: 1rem;
 }
+
+.jobs__arrow-container > svg:hover,
+.open-job__find-out-container:hover {
+  cursor: pointer;
+}
 .jobs__open-slider {
   display: flex;
   gap: 2rem;
