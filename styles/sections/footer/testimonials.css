@@ -21,9 +21,31 @@
   max-width: 31rem;
 }
 .testimonial__image {
-  height: 31rem;
+  max-height: 31rem;
+  width: auto;
   align-self: flex-end;
 }
 .testimonial__desc {
   margin: 1.5rem 0 2rem;
+}
+@media (max-width: 970px) {
+  .testimonial {
+    height: fit-content;
+    background: url(../../../assets/images/Testimonial-background-vertical.png)
+      no-repeat;
+    background-size: cover; /* This property sets the background image to cover the entire container */
+    background-position: center; /* This property centers the background image */
+    background-repeat: no-repeat;
+  }
+  .testimonial__content-container {
+    width: 90%;
+    margin: 4.25rem auto 0;
+  }
+  .testimonial__container {
+    align-content: center;
+    flex-direction: column-reverse;
+  }
+  .testimonial__image {
+    width: 100%;
+  }
 }
