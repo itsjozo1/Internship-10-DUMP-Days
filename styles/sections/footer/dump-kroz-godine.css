@@ -1,11 +1,12 @@
 .gallery__main-grid {
   rotate: -15deg;
+  transform: translate(-75%, 100%);
 }
 
 .gallery__left-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 354px 456px;
+  grid-template-rows: 456px 354px;
   gap: 0.86rem;
 }
 
