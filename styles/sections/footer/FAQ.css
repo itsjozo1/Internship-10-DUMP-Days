@@ -1,0 +1,21 @@
+.faq {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.faq__container {
+  width: 40rem;
+  margin-left: 13.5rem;
+}
+.faq__headline {
+  margin-bottom: 4.5rem;
+}
+.faq__headline-gradient {
+  background: linear-gradient(89deg, #37f3e1 -40.27%, #a109ff 101.93%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.faq__question {
+  margin-bottom: 4rem;
+}
