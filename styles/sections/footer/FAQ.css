@@ -20,7 +20,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.faq__image {
+.faq__image-mobile {
+  display: none;
+}
+.faq__image-desktop {
   transform: rotate(358deg);
   position: absolute;
   right: -1.5rem;
@@ -28,4 +31,34 @@
 }
 .faq__question {
   margin-bottom: 4rem;
+}
+@media (max-width: 900px) {
+  .faq {
+    margin: 10rem 0 0;
+    flex-direction: column;
+    height: fit-content;
+    width: inherit;
+    align-items: flex-start;
+  }
+
+  .faq__container {
+    width: inherit;
+    margin: 0 24px;
+  }
+  .faq__image-desktop {
+    display: none;
+  }
+  .faq__container h4 {
+    line-height: 4.25rem;
+    margin-bottom: 5.75rem;
+  }
+  .faq__question {
+    margin-bottom: 3.75rem;
+  }
+  .faq__image-mobile {
+    position: relative;
+    display: block;
+    align-self: flex-end;
+    right: -2rem;
+  }
 }
