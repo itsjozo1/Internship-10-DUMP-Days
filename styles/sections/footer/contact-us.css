@@ -49,3 +49,24 @@
   left: 0;
   opacity: 0.5;
 }
+@media (max-width: 850px) {
+  .contact-us {
+    margin: -8rem 24px;
+    width: 90%;
+  }
+  .contact-us h2 {
+    font-size: 3.375rem;
+    line-height: 4.25rem; /* 125.926% */
+    letter-spacing: -0.03375rem;
+  }
+  .contact-us__byline {
+    margin-top: 2.5rem;
+  }
+  .contact-us__user-inputs-container {
+    width: inherit;
+    margin-top: 4.5rem;
+  }
+  .user-input__field {
+    width: inherit;
+  }
+}
