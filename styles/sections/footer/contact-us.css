@@ -49,7 +49,7 @@
   left: 0;
   opacity: 0.5;
 }
-@media (max-width: 850px) {
+@media (max-width: 890px) {
   .contact-us {
     margin: -8rem 24px;
     width: 90%;
