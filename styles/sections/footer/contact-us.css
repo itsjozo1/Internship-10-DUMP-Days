@@ -1,0 +1,50 @@
+.contact-us {
+  margin: 35rem auto 0;
+  width: 90%;
+  text-align: center;
+}
+.contact-us__byline {
+  margin-top: 3rem;
+}
+.contact-us__social-logos-container {
+  margin: 1.5rem auto 0;
+  width: fit-content;
+  display: flex;
+  gap: 1.75rem;
+  align-items: center;
+}
+.contact-us__user-inputs-container {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 7.5rem auto 0;
+}
+.user-input__field {
+  width: 31.5rem;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  color: var(--white, #fff);
+  border: none;
+  background-color: #000;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s ease;
+  outline: none;
+}
+.input__placeholder {
+  opacity: 0.5;
+  display: none;
+}
+.user-input__field::placeholder {
+  color: var(--white, #fff);
+}
+.user-input__field:focus {
+  height: calc(100% + 0.75rem);
+  border-bottom: 1px solid transparent;
+  border-image: var(--gradients-button) 1;
+}
+.user-input__field:focus::placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
