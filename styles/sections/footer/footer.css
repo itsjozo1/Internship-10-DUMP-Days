@@ -1,0 +1,10 @@
+.footer {
+  margin: 16rem auto 3rem;
+  display: flex;
+  gap: 10.5rem;
+}
+.footer__social-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

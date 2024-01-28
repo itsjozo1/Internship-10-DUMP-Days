@@ -51,7 +51,9 @@
 }
 @media (max-width: 890px) {
   .contact-us {
-    margin: -8rem 24px;
+    position: relative;
+    top: -8rem;
+    margin: 0 24px;
     width: 90%;
   }
   .contact-us h2 {
