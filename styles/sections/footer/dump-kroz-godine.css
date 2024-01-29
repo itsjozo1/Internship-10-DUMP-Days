@@ -100,3 +100,31 @@
   top: -345px;
   left: 455px;
 }
+
+@media (max-width: 1024px) {
+  .gallery__grid--wrapper {
+    scale: 0.7;
+    transform: translate(-62.5%, 10%);
+  }
+}
+
+/* @media (max-width: 812px) {
+  .gallery__grid--wrapper {
+    scale: 0.5;
+    transform: translate(-100%, 10%);
+  }
+}
+
+@media (max-width: 640px) {
+  .gallery__grid--wrapper {
+    scale: 0.5;
+    transform: translate(-150%, 10%);
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery__grid--wrapper {
+    scale: 0.4;
+    transform: translate(-250%, 10%);
+  }
+} */
