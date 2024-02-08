@@ -16,6 +16,16 @@
   margin-left: 6.5rem;
 }
 
+#follow-button-span::after {
+  content: "Livestream";
+}
+
+@media screen and (max-width: 812px) {
+  #follow-button-span::after {
+    content: "Youtube";
+  }
+}
+
 .follow-online__subtitle {
   text-align: center;
 }
