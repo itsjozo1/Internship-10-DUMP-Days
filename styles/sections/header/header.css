@@ -14,8 +14,8 @@
   margin-right: 6.5rem;
 }
 
-.header__logo--mobile,
-.header__nav--moblie {
+.header__logo-mobile,
+.header__nav-moblie {
   display: none;
 }
 
@@ -36,11 +36,11 @@
 
 @media screen and (max-width: 1024px) {
   .header__nav,
-  .header__nav--moblie {
+  .header__nav-moblie {
     margin-right: 1.5rem;
   }
   .header__logo,
-  .header__logo--mobile {
+  .header__logo-mobile {
     margin-left: 1.5rem;
   }
   .header__nav-list {
@@ -53,8 +53,8 @@
     display: none;
   }
 
-  .header__nav--moblie,
-  .header__logo--mobile {
+  .header__nav-moblie,
+  .header__logo-mobile {
     display: block;
   }
 

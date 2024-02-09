@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.fesb-location__content--wrapper {
+.fesb-location__content-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .fesb-location__content--wrapper {
+  .fesb-location__content-wrapper {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     & h2 {
@@ -57,7 +57,7 @@
     height: 120vw;
     background-position: 75% 31%, 0% 0%;
   }
-  .fesb-location__content--wrapper {
+  .fesb-location__content-wrapper {
     & h2 {
       line-height: 3.5rem; /* 103.704% */
       letter-spacing: -0.03375rem; /* 103.704% */

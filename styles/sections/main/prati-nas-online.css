@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-.follow-online__content--container {
+.follow-online__content-container {
   max-width: 31.5rem;
   display: flex;
   flex-direction: column;
@@ -39,16 +39,16 @@
   margin-right: 0.8rem;
 }
 
-.follow-online__content--container h2 {
+.follow-online__content-container h2 {
   margin-bottom: 0.5rem;
 }
 
-.follow-online__content--container p.body-text {
+.follow-online__content-container p.body-text {
   max-width: 25rem;
 }
 
 @media screen and (max-width: 1440px) {
-  .follow-online__content--wrapper {
+  .follow-online__content-wrapper {
     background-size: 123vw;
     background-position: -50% 0%;
     height: 100vw;
@@ -56,7 +56,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .follow-online__content--wrapper {
+  .follow-online__content-wrapper {
     justify-content: flex-start;
   }
 }
@@ -65,25 +65,25 @@
   .follow-online__container {
     margin-top: 4rem;
   }
-  .follow-online__content--wrapper {
+  .follow-online__content-wrapper {
     height: 130vw;
     background-position: -35% 120%;
   }
 
-  .follow-online__content--container h2 {
+  .follow-online__content-container h2 {
     line-height: clamp(68px, 10vw, 7.5rem); /* 125.926% */
     letter-spacing: -0.54px;
     font-size: clamp(54px, 10vw, 122px);
     margin-bottom: 0rem;
   }
 
-  .follow-online__content--wrapper {
+  .follow-online__content-wrapper {
     margin-left: 0rem;
   }
 }
 
 @media screen and (max-width: 512px) {
-  .follow-online__content--wrapper {
+  .follow-online__content-wrapper {
     height: 200vw;
     background-size: 160vw;
     background-position: 15% 120%;
@@ -92,7 +92,7 @@
 }
 
 @media screen and (max-width: 398px) {
-  .follow-online__content--wrapper {
+  .follow-online__content-wrapper {
     height: 240vw;
     background-size: 200vw;
   }
