@@ -5,6 +5,9 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+.footer__headline {
+  text-decoration: underline;
+}
 .footer__social-container {
   display: flex;
   align-items: center;
