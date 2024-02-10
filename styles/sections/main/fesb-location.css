@@ -1,16 +1,16 @@
 .fesb-location__container {
-  height: 56.4375rem;
+  height: 66.4375rem;
   width: 100%;
   margin-top: 19.8rem;
   background: url("../../../assets/svg/icons/map-pin-filled.svg") no-repeat,
     url("../../../assets/images/fesb-location.png") no-repeat;
-  background-size: 7vw, contain;
-  background-position: 76% 64%, 0% 0%;
+  background-size: 7vw, cover;
+  background-position: 74.5rem 66%, 0 0;
   display: flex;
   align-items: center;
 }
 
-.fesb-location__content--wrapper {
+.fesb-location__content-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,12 +29,13 @@
 @media screen and (max-width: 1440px) {
   .fesb-location__container {
     height: 65vw;
-    background-position: 76% 62%, 0% 0%;
+    background-position: 74.3% 62%, 0% 0%;
+    background-size: 7vw, contain;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .fesb-location__content--wrapper {
+  .fesb-location__content-wrapper {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     & h2 {
@@ -56,7 +57,7 @@
     height: 120vw;
     background-position: 75% 31%, 0% 0%;
   }
-  .fesb-location__content--wrapper {
+  .fesb-location__content-wrapper {
     & h2 {
       line-height: 3.5rem; /* 103.704% */
       letter-spacing: -0.03375rem; /* 103.704% */

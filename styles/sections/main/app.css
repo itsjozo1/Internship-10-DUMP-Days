@@ -6,48 +6,48 @@
   margin: 28rem 1.5rem 0 1.5rem;
 }
 
-.app-section__content--container {
+.app-section__content-container {
   display: flex;
   justify-content: space-around;
 
   margin-top: 10.6rem;
 }
 
-.app-section__content-text--container {
+.app-section__content-text-container {
   max-width: 20.8rem;
   display: flex;
   flex-direction: column;
   gap: 10.3rem;
 }
 
-.app-section__content-paragraphs--wrapper {
+.app-section__content-paragraphs-wrapper {
   display: flex;
   flex-direction: column;
   gap: 8rem;
 }
-.app-section__content-paragraph--container {
+.app-section__content-paragraph-container {
   display: flex;
   flex-direction: column;
   gap: 1.7rem;
 }
 
 @media screen and (max-width: 812px) {
-  .app-section__content--container {
+  .app-section__content-container {
     flex-direction: column-reverse;
     align-items: center;
     row-gap: 3rem;
     margin-top: 7.4rem;
   }
 
-  .app-section__content-text--container {
+  .app-section__content-text-container {
     gap: 0.5rem;
   }
 
-  .app-section__content-paragraphs--wrapper {
+  .app-section__content-paragraphs-wrapper {
     gap: 6.5rem;
   }
 
-  .app-section__content-image--container {
+  .app-section__content-image-container {
     width: 371px;
     height: 624px;
   }
@@ -63,7 +63,7 @@
     letter-spacing: -0.03375rem;
   }
 
-  .app-section__content-paragraph--container > h4 {
+  .app-section__content-paragraph-container > h4 {
     font-size: clamp(2.25rem, 6vw, 3.375rem);
   }
 }
